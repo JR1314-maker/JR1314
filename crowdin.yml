@@ -7,8 +7,8 @@ preserve_hierarchy: true
 files:
   # 常规翻译文件
   - source: /locales/zh_HK/*.ts
-    translation: /locales/%three_letters_code%/%original_file_name%
-    multilingual: 4
+    translation: /locales/%language_code%/%file_name%
+    multilingual: 1
 
   # Figma 文案特殊处理
   - source: /locales/zh_HK/figma.json
